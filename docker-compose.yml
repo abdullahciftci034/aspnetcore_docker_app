@@ -1,8 +1,8 @@
-version: "3.9"
+version: "3.3"
 services:
   aspnetcore_app_service:
-    build: "./"
+    build: "./aspnetcore_app"
     ports:
-      - 5001:5001
+      - 83:5001
     volumes:
       - ./aspnetcore_app:/aspnetcore_app
