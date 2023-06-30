@@ -3,6 +3,6 @@ services:
   aspnetcore_app_service:
     build: "./aspnetcore_app"
     ports:
-      - 83:5000
+      - 82:5000
     volumes:
       - ./aspnetcore_app/app:/aspnetcore_app
